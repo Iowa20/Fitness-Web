@@ -31,9 +31,7 @@
 
  h2 {
      font-size: 8rem;
-     color:seashell;
-
- }
+    }
 
  h3 {
      font-size: 2.85rem;
@@ -60,7 +58,7 @@
      cursor: pointer;
      background-color: turquoise;
      color:seashell;
-     font-size: 0.9;
+     font-size: 0.9rem;
      text-align: center;
      padding: 1.25rem 3rem;
      border-radius: 25px;
@@ -81,7 +79,7 @@ a:hover {
 p {
     color: #7b7b7b;
     line-height: 2;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
    }
 
 section, footer {
@@ -118,7 +116,7 @@ section, footer {
      top: 0;
      left: 0;
     background: rgba(0, 0, 0, 0.6);
-    color: seashell;
+    color: white;
     padding: 1rem 0;
     z-index: 1;
 }
@@ -130,29 +128,31 @@ header nav {
 }
 
 header nav ul.flex {
-    /*align-items: center;*/
+    align-items: center;
     justify-content: space-around;
 }
 
 header nav ul li a {
-    color: seashell;
+    color: white;
     font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .top-gym-logo {
     margin: 0 2rem;
-    border: 2px seashell;
-    padding: 15px 10px 7px; /*this is for the logo design TOP GYM "this means 15 top, 10 on right and 7 at bottom*/
+    border: 2px white;
+    padding: 15px 10px 7px;
     text-align: center;
     letter-spacing: 2px;
+    
 }
 
 .top-gym-logo a {
     font-size: 28px;
     text-transform: uppercase;
-    color: seashell;
+    color: white;
     line-height: 20px;
 }
 
@@ -174,7 +174,32 @@ header nav ul li a {
     font-size: 15px;
     border: none;
     background: transparent;
-    color: seashell;
-
+    color: white;
 }
+
+#hamburger-menu {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    margin: 0 1rem;
+    display: none;
+}
+
+#hamburger-menu .strip{
+    display: block;
+    height: 1px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+#hero-slider .hero-slide-item {
+    position: relative;
+    height: 895px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
 /* end hero: section styles */
