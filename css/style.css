@@ -104,3 +104,22 @@ section, footer {
     text-align: center;
 }
 /* end global styles */
+
+/* start hero: section styles */
+
+#hero {
+    position: relative;
+    padding: 0;
+
+}
+ header{
+     position: absolute;
+     width: 100%;
+     top: 0;
+     left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: seashell;
+    padding: 1rem;
+    
+ }
+/* end hero: section styles */
