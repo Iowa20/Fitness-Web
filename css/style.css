@@ -202,4 +202,292 @@ header nav ul li a {
     background-position: top center;
 }
 
+#hero-slider .hero-slide-item .youtube-button {
+    background: #233EDE;
+    padding: 1.2rem 1.45rem;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+#hero-slider .hero-slider-marketing {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: -100px auto 0;
+}
+
+#hero-slider .slick-dots {
+    bottom: 35px;
+}
+
+#hero-slider .slick-dots li button:before{
+    color: white;
+    opacity: 1;
+    padding: 2px 2px 2px 3px;
+    border: 3px solid transparent;
+    border-radius: 20px;
+
+}
+
+#hero-slider .slick-dots li.slick-active button:before{
+    border-color: white;
+
+}
+
+
 /* end hero: section styles */
+
+
+/* start: features section styles */
+#features .box {
+    width: 31%;
+}
+
+#features .box > img {
+    width: 100%;
+
+}
+
+#features .box .feature-info-container {
+    position: relative;
+}
+
+#features .box .icon {
+    position: relative;
+    margin: 0 auto;
+    background: #233EDE;
+    border-radius: 45px;
+    top: -35px;
+    width: 88px;
+    height: 88px;
+    line-height: 83px;
+    text-align: center;
+}
+
+#features .box .icon img{
+    vertical-align: middle;
+}
+/* end: features section styles */
+
+/* start: services section */
+#services {
+    background: #212122;
+}
+
+#services .container{
+    margin-bottom: 4rem;
+}
+
+#services .box {
+    width: 23.5%;
+}
+
+#services .box img {
+    height: 65px;
+    margin-bottom: 2rem;
+}
+
+#services .box h4 {
+    color: white;
+}
+/* end: services section */
+
+/* start: trainers section styles */
+#trainers {
+    background: url('https://onclickwebdesign.com/wp-content/uploads/trainer-bg.jpg')
+    top center no-repeat;
+    background-size: cover;
+}
+
+#trainers-slider {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#trainers-slider .slick-slide {
+    padding: 0 20px;
+}
+
+#trainer-slider .trainer-slider-item img {
+    width: 75%;
+}
+
+#trainer-slider h4 {
+    color: white;
+    margin-top: 2.5rem;
+}
+
+#trainer-slider p {
+    color: white;
+    opacity: 0.6;
+}
+
+#trainer-slider .slick-prev {
+    left: -30px;
+}
+
+#trainer-slider .slick-next {
+    right: -10px;
+}
+
+#trainer-slider .slick-prev:before,
+#trainer-slider .slick-next:before {
+    font-size: 40px;
+}
+/* end: triners section styles */
+
+/* start: schedule services styles */
+#schedule-services {
+    text-align: left;
+}
+
+#schedule-services .flex > div {
+    width: 32%;
+    box-sizing: border-box;
+}
+
+#schedule-services .flex strong {
+    display: block;
+    color: #212122;
+    font-size: 0.85rem;
+    opacity: 0.6;
+    letter-spacing: 4px;
+}
+
+.upcoming-classes-box {
+    border-radius: 2px solid #e5e7f3;
+    padding: 4rem 2.5rem 2.5rem;
+}
+
+.upcoming-classes-box h4 {
+    margin-bottom: 2rem;
+}
+
+.upcoming-classes-box table {
+    width: 100%;
+}
+
+.upcoming-classes-box table tr td {
+    padding: 13px 10px 13px 0;
+    color: #7b7b7b;
+    font-size: 0.8rem;
+}
+
+.upcoming-classes-box table tr td:last-child {
+    text-align: right;
+    padding-right: 0;
+}
+
+.membership-cards-box {
+    background: #233EDE;
+    padding: 1.5rem;
+}
+
+.membership-cards-box .inner-container {
+    background: url('https://onclickwebdesign.com/wp-content/uploads/woman-exercise.jpg') top center no-repeat;
+    height: 395px;
+    padding: 2.5rem 1.5rem 1.5rem;
+}
+
+.membership-cards-box h2{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #233EDE;
+    line-height: 1;
+}
+
+.membership-cards-box h2 span {
+    font-size: 1rem;
+    letter-spacing: 0;
+}
+
+.personal-trainer-box {
+    background: url('https://onclickwebdesign.com/wp-content/uploads/personal-trainer.jpg') top center no-repeat;
+    padding: 4rem 3rem 3rem;
+}
+
+.personal-trainer-box h4 {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.personal-trainer-box p {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.personal-trainer-box button {
+    width: 100%;
+}
+
+#schedule-services .personal-trainer-box strong {
+    color: white;
+}
+/* end: schedule services styles */
+
+/* start: footer section styles */
+footer {
+    background: url('https://onclickwebdesign.com/wp-content/uploads/footer-bg.jpg')
+    top center no-repeat;
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+
+.footer-container {
+    max-width: 625px;
+    margin: 0 auto;
+}
+
+#footer-logo {
+    display: inline-block;
+}
+
+footer nav {
+    margin: 2rem 0 6rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+footer .mailing-list {
+    position: relative;
+}
+
+footer input {
+    color: white;
+    height: 78px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: transparent;
+    border: 2px solid white;
+    font-size: 13px;
+    font-style: italic;
+    padding-left: 2rem;
+}
+
+footer button {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    padding: 1.75rem 3rem;
+}
+
+footer ul.social-icon {
+    max-width: 400px;
+}
+/* end: footer section styles */
