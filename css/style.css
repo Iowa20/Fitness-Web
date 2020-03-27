@@ -194,7 +194,7 @@ header nav ul li a {
     margin: 4px 0;
 }
 
-#hero-slider .hero-slide-item {
+#hero-slider .hero-slider-item {
     position: relative;
     height: 895px;
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ header nav ul li a {
     background-position: top center;
 }
 
-#hero-slider .hero-slide-item .youtube-button {
+#hero-slider .hero-slider-item .youtube-button {
     background: #233EDE;
     padding: 1.2rem 1.45rem;
     border-radius: 30px;
@@ -461,6 +461,7 @@ footer ul li a {
     text-transform: uppercase;
     font-size: 0.8rem;
     font-weight: 300;
+    text-decoration: none;
 }
 
 footer .mailing-list {
@@ -487,7 +488,28 @@ footer button {
     padding: 1.75rem 3rem;
 }
 
-footer ul.social-icon {
+footer ul.social-icons {
     max-width: 400px;
+    margin: 4rem auto 3rem;
 }
+
+footer ul.social-icons li a {
+    font-size: 1rem;
+}
+
+footer img.bicep {
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+footer small {
+    color: white;
+    opacity: 0.8;
+    font-weight: 300;
+    margin: 0 0.5rem;
+}
+ footer small a {
+     color: white;
+     text-decoration: underline;
+ }
 /* end: footer section styles */
